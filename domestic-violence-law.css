@@ -1,0 +1,88 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  .domestic-violence-header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e91e63;
+    color: #fff;
+  }
+  
+  .domestic-violence-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .domestic-violence-header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Main Content */
+  .domestic-violence-main {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+  }
+  
+  /* Domestic Violence Sections */
+  .domestic-violence-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .domestic-violence-section h2 {
+    font-size: 2em;
+    color: #e91e63;
+    margin-bottom: 15px;
+  }
+  
+  .domestic-violence-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .domestic-violence-section li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+  
+  .domestic-violence-section a {
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .domestic-violence-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .domestic-violence-header h1 {
+      font-size: 2em;
+    }
+  
+    .domestic-violence-main {
+      width: 100%;
+    }
+  
+    .domestic-violence-section h2 {
+      font-size: 1.8em;
+    }
+  }
